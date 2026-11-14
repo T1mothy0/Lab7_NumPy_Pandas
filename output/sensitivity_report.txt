@@ -1,0 +1,13 @@
+STATISTICAL ROBUSTNESS AND SENSITIVITY REPORT
+Student: Mejos TUPM-26-3605
+Random Seed: 263605
+Selected Features: Feature_062, Feature_285, Feature_545, Feature_025, Feature_338
+Bootstrap Repetitions: 250
+Largest Change in Mean Difference: Feature_338 (0.0022)
+Features with Changed Sign: None
+Features with Changed Ranking: None
+Reproducibility Verified: True
+Interpretation Notes:
+- Mean differences describe groups; they do not show that a feature causes failure.
+- A confidence interval that includes zero means the difference is not clearly separated from zero.
+- Features whose sign or rank changes between strategies are sensitive to missing-data handling.
